@@ -42,6 +42,8 @@
 
             <form action="#" method="post">
 
+                <h3>Owner Details</h3>
+
                 <div class="form-group">
                     <label for="owner-name">Owner's name</label>
                     <input type="text"
@@ -57,6 +59,8 @@
                         name="email"
                         required>
                 </div>
+
+                <h3>Dog Details</h3>
 
                 <div class="form-group">
                     <label for="dog-name">Dog's name</label>
@@ -82,6 +86,8 @@
                         min="0"
                         required>
                 </div>
+
+                <h3>Booking Details</h3>
 
                 <div class="form-group">
                     <label for="service">Preferred grooming service</label>
@@ -118,6 +124,17 @@
                         name="preferred-time"
                         min="09:00"
                         max="17:00">
+                </div>
+
+                <h3>Special Requests</h3>
+
+                <div class="form-group">
+                    <label for="special-requests">
+                        Special requests or information about your dog
+                    </label>
+                    <textarea id="special-requests"
+                        name="special-requests"
+                        rows="4"></textarea>
                 </div>
 
                 <p class="form-note">
